@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.navbars {
+    background: linear-gradient(90deg,rgb(0,0,0),rgb(53,16,16));
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+    height: 80px;
+
+}
+
+
+.navbars ul li{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+}
+
+.navbars h3{
+    margin-right: auto;
+    padding: auto;
+    color: white;
+
+}
+
+.navbars ul li a{
+    color: azure;
+    text-decoration: none;
+}
+
+.navbars ul li a:hover{
+    transition: 0.5s;
+    color: transparent;
+    color: grey;
+}
+
+body {
+    background: linear-gradient(90deg,rgb(116,98,215),rgb(255, 145, 112));
+    height: 100vh;
+}
+
+.pembukaan{
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pembukaan p{
+    font-size: 20px;
+}
+.pembukaan span{
+    display: block;
+}
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz{
+    padding-left: 90px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.quiz a{
+    display: inline-block;
+    background-color: rgb(240,255,255);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+a{
+    
+    color: black;
+}
+
+.quiz a:hover {
+    background-color: transparent;
+    
+}
+
+img{
+    height: 95vh;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    padding: 150px 0;
+}
+
+.slider{
+    width: 550px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0 0 13px rgba(0,0,0,0.5);
+    align-self: center;
+    margin-left: 50px;
+    
+}
+
+.slider ul{
+    width: 1550px;
+    height: 100%;
+    display: flex;
+}
+
+.slider ul li{
+    position: relative;
+    animation: slider 10s infinite;
+}
+
+.slider ul img{
+    width: 550px;
+    height: 350px;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 0;
+    }
+    35%{
+        left: -550px;
+    }
+    55%{
+        left: -550px;
+    }
+    65%{
+        left: -1100px;
+    }
+    95%{
+        left: -1100px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+
