@@ -1,12 +1,12 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-} */
+}
 
 
-/* .navbars {
+.navbars {
     background: linear-gradient(90deg,rgb(0,0,0),rgb(53,16,16));
 
     display: flex;
@@ -45,7 +45,7 @@
     transition: 0.5s;
     color: transparent;
     color: grey;
-} */
+}
 
 
 * {
@@ -75,6 +75,7 @@ body {
     width: 100vw;
     display: grid;
     place-items: center;
+    margin-top: 50px;
 }
 
 .calculator {
