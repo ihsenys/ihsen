@@ -71,7 +71,7 @@ body {
 }
 
 .container {
-    height: 91.6vh;
+    height: 96vh;
     width: 100vw;
     display: grid;
     place-items: center;
