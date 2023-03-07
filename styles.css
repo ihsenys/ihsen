@@ -1,4 +1,4 @@
-/* *{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,9 +34,9 @@
     padding: auto;
     color: white;
 
-} */
+} 
 
-/* .navbars ul li a{
+.navbars ul li a{
     color: azure;
     text-decoration: none;
 }
@@ -45,7 +45,7 @@
     transition: 0.5s;
     color: transparent;
     color: grey;
-} */
+} 
 
 
 * {
@@ -71,11 +71,11 @@ body {
 }
 
 .container {
-    height: 96vh;
+    height: 95vh;
     width: 100vw;
     display: grid;
     place-items: center;
-    margin-top: 30px;
+    margin-top: 0px;
     
 }
 
